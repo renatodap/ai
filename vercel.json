@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd velara && npm run build",
+  "devCommand": "cd velara && npm run dev",
+  "installCommand": "cd velara && npm install",
+  "outputDirectory": "velara/dist",
+  "crons": [
+    {
+      "path": "/api/cron",
+      "schedule": "0 0 * * *"
+    }
+  ]
+}
